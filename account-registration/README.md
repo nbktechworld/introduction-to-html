@@ -13,3 +13,7 @@ Open `index.html` in a browser
 ## Wireframe
 
 ![wireframe](https://share.balsamiq.com/c/cuQW1F5LV4fR4zoe8JH85X.png)
+
+## Finished
+
+![finished](finished.png)
