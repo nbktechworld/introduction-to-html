@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Account Registration</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Account Registration</h1>
+    <form method="POST" action="https://jsonplaceholder.typicode.com/test/html-forms" class="account-registration-form">
+      <div class="form-group">
+        <label for="account-registration-form-email">Email</label>
+        <input type="email" name="email" id="account-registration-form-email">
+      </div>
+      <div class="form-group">
+        <label for="account-registration-form-password">Password</label>
+        <input type="password" name="password" id="account-registration-form-password">
+      </div>
+      <div class="form-group">
+        <label for="account-registration-form-biography">Tell us about yourself</label>
+        <textarea name="biography" rows="5" id="account-registration-form-biography"></textarea>
+      </div>
+      <div class="form-group">
+        <div>Which option best describes you</div>
+        <label><input type="radio" name="plan" value="individual"> Individual</label>
+        <label><input type="radio" name="plan" value="business"> Business</label>
+        <label><input type="radio" name="plan" value="other"> Other</label>
+      </div>
+      <div class="form-group">
+        <div>How do you use our service?</div>
+        <label><input type="checkbox" name="usage" value="desktop"> Desktop app</label>
+        <label><input type="checkbox" name="usage" value="mobile"> Mobile app</label>
+        <label><input type="checkbox" name="usage" value="tv"> Smart TV app</label>
+      </div>
+      <div class="form-group">
+        <label for="account-registration-form-usage-seats">How many usage seats will you need?</label>
+        <input type="number" id="account-registration-form-usage-seats">
+      </div>
+      <div class="form-group">
+        <label for="account-registration-form-start-date">When should the service start?</label>
+        <input type="date" name="start-date" id="account-registration-form-start-date">
+      </div>
+      <div class="form-group">
+        <label><input type="checkbox" name="agree-to-terms"> I have read and agree to the terms of service</label>
+        <label><input type="checkbox" name="agree-to-electronic"> I agree to submit my registration electronically</label>
+      </div>
+
+      <input type="submit" value="Create Account">
+    </form>
+  </body>
+</html>
